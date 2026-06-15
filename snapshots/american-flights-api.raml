@@ -1,0 +1,51 @@
+#%RAML 1.0
+title: American Flights API
+version: v1
+
+types:
+  AmericanFlight: !include /exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flight-data-type/1.0.1/AmericanFlightDataType.raml
+
+/flights:
+  get:
+    displayName: Retrieve Flights
+    description: Get records from the flights database
+    queryParameters:
+      destination:
+        required: false
+        enum:
+          - SFO
+          - CLE
+          - LAX
+    responses:
+      200:
+        body:
+          application/json:
+            type: AmericanFlight[]
+            example: !include /exchange_modules/68ef9520-24e9-4cf2-b2f5-620025690913/training-american-flights-example/1.0.1/AmericanFlightsExample.raml
+  post:
+    displayName: Create Flight
+    description: Add a new flight record to the backing store
+    body:
+      application/json:
+        type: AmericanFlight
+        example: !include /examples/AmericanFlightExample.raml
+    responses:
+      201:
+        body:
+          application/json:
+            properties:
+              responseMessage: string
+            example:
+              responseMessage: Flight record added (jk, nothing really happened)
+
+  /{ID}:
+    get:
+      displayName: Get Flights by ID
+      description: Retrieve the flight record that matches ID
+      responses:
+        200:
+          body:
+            application/json:
+              type: AmericanFlight
+              example: !include /examples/AmericanFlightExample.raml
+
