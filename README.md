@@ -7,7 +7,11 @@ vlowe@salesforce.com
 -------------------------------------------------------------------------------------------------------------------
 Trailhead Academy:						https://trailheadacademy.salesforce.com/my-learning
 
-Salesforce Mimeo:							https://salesforce.mimeo.digital/MuleSoft
+Cloudshare VM:    https://use.cloudshare.com/Class/2feqf
+
+Passphrase:       Oprah the Healthy Frog
+
+      
 
 -------------------------------------------------------------------------------------------------------------------
 Survey Link:									https://www.research.net/r/trailheadacademy
