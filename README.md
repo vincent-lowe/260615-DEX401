@@ -1,8 +1,8 @@
 DEX401 - Anypoiont Development Fundamentals Classroom Reference - < YYMMDD > - < TZ >
 
-< Instructor Name >
+Vincent Lowe
 
-< Instructor Email >
+vlowe@salesforce.com
 
 -------------------------------------------------------------------------------------------------------------------
 Trailhead Academy:						https://trailheadacademy.salesforce.com/my-learning
