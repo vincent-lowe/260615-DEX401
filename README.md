@@ -64,7 +64,8 @@ MuleSoft Pricing & Support: https://www.mulesoft.com/anypoint-pricing
 |Here We Go Again|Ray Charles and Norah Jones|from the album Genius Loves Company|
 |Man of Constant Sorrow|Geoff Castellucci|All voices on the track are Geoff|
 |It Ain't Over Yet|Rodney Crowell feat. Roseanne Cash||
-
+|City of New Orleans|Arlo Guthrie||
+|Midnight Train to Georgia|Gladys Knight and the Pips||
 
 
 
